@@ -1,0 +1,6 @@
+:HL["/FreeEQ/_next/static/chunks/37p99ruw81qfk.css","style"]
+:HL["/FreeEQ/_next/static/media/c9f6ebf08ddd616b-s.p.0sv86lbjkn8rn.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/FreeEQ/_next/static/media/d25394c5b8ff78eb-s.p.0ongx-zmnmtio.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+2:[["children",{"s":"__PAGE__","h":160}]]
+1:[["children",{"s":"credits","h":96,"c":"$Q2"}]]
+0:{"b":"ChkVYd5RJeOEoFYQAgjdo","t":{"t":{"s":"","h":80,"c":"$Q1"}}}

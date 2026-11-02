@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://freeeq.app
+Sitemap: https://freeeq.app/sitemap.xml
