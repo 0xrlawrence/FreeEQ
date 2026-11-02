@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 1000">
+    <defs>
+      <linearGradient id="lacquer" x1="0" x2="1" y1="0" y2="0">
+        <stop offset="0" stop-color="#1e070c"/><stop offset=".13" stop-color="#3c1119"/><stop offset=".3" stop-color="#6d2733"/>
+        <stop offset=".4" stop-color="#94434f"/><stop offset=".5" stop-color="#6b2531"/><stop offset=".76" stop-color="#47141e"/>
+        <stop offset=".93" stop-color="#25090f"/><stop offset="1" stop-color="#4f2029"/>
+      </linearGradient>
+      <linearGradient id="brass" x1="0" x2="1" y1="0" y2="0">
+        <stop offset="0" stop-color="#4f3c1c"/><stop offset=".22" stop-color="#a98a52"/><stop offset=".38" stop-color="#f2e2b5"/>
+        <stop offset=".54" stop-color="#b89a63"/><stop offset=".82" stop-color="#5f4923"/><stop offset="1" stop-color="#8d7242"/>
+      </linearGradient>
+      <linearGradient id="rubber" x1="0" x2="1" y1="0" y2="0">
+        <stop offset="0" stop-color="#050505"/><stop offset=".3" stop-color="#2b2a29"/><stop offset=".42" stop-color="#5f5d5a"/>
+        <stop offset=".6" stop-color="#1b1a1a"/><stop offset="1" stop-color="#060606"/>
+      </linearGradient>
+      <linearGradient id="tipg" x1="0" x2="1" y1="0" y2=".2">
+        <stop offset="0" stop-color="#0b0b0b"/><stop offset=".26" stop-color="#2d2c2b"/><stop offset=".4" stop-color="#6c6a66"/>
+        <stop offset=".55" stop-color="#262525"/><stop offset="1" stop-color="#080808"/>
+      </linearGradient>
+      <radialGradient id="mouth" cx=".5" cy=".62" r=".6"><stop offset="0" stop-color="#000"/><stop offset=".8" stop-color="#141313"/><stop offset="1" stop-color="#3a3836"/></radialGradient>
+      <radialGradient id="floor" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#7f7a70" stop-opacity=".34"/><stop offset="1" stop-color="#7f7a70" stop-opacity="0"/></radialGradient>
+      <filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="7"/></filter>
+      <filter id="cast" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="16"/></filter>
+      <filter id="soft2" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="2.2"/></filter>
+      <filter id="grain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="1.1" numOctaves="2" result="t"/><feColorMatrix in="t" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .55 -.2" result="g"/><feComposite in="g" in2="SourceAlpha" operator="in" result="c"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="c"/></feMerge></filter>
+      <clipPath id="tipclip"><path d="M-72-152C-86-214-44-262 0-262s86 48 72 110C62-132-62-132-72-152Z"/></clipPath>
+      <g id="bud">
+        <!-- ear tip -->
+        <path d="M-72-152C-86-214-44-262 0-262s86 48 72 110C62-132-62-132-72-152Z" fill="url(#tipg)"/>
+        <g clip-path="url(#tipclip)">
+          <ellipse cx="0" cy="-247" rx="31" ry="13" fill="url(#mouth)"/>
+          <path d="M-46-226C-52-190-50-170-44-150" stroke="#b9b6b0" stroke-opacity=".45" stroke-width="7" fill="none" filter="url(#soft2)"/>
+          <path d="M-74-150C-40-132 40-132 74-150" stroke="#000" stroke-opacity=".7" stroke-width="10" fill="none" filter="url(#soft2)"/>
+        </g>
+        <!-- brass nozzle -->
+        <path d="M-37-145H37L41-108H-41Z" fill="url(#brass)"/>
+        <path d="M-37-145C-20-136 20-136 37-145" stroke="#2c2010" stroke-opacity=".55" fill="none" stroke-width="2.4"/>
+        <!-- body -->
+        <path d="M-42-114C-20-104 20-104 42-114C54-100 70-74 70-36V70C70 106 54 128 40 144C20 152-20 152-40 144C-54 128-70 106-70 70V-36C-70-74-54-100-42-114Z" fill="url(#lacquer)" filter="url(#grain)"/>
+        <path d="M-44-58C-49-20-49 74-39 114" stroke="#f6dcd8" stroke-opacity=".62" stroke-width="4" fill="none" filter="url(#soft2)" stroke-linecap="round"/>
+        <path d="M-22-92C-28-60-28 92-22 130" stroke="#d98f9a" stroke-opacity=".22" stroke-width="20" fill="none" filter="url(#soft)"/>
+        <path d="M-70-30C-34-15 34-15 70-30" stroke="#1b060a" stroke-width="1.6" fill="none"/>
+        <path d="M-70-27C-34-12 34-12 70-27" stroke="#a0525e" stroke-opacity=".6" stroke-width="1" fill="none"/>
+        <!-- brass collar -->
+        <path d="M-41 138C-20 148 20 148 41 138L37 162C20 170-20 170-37 162Z" fill="url(#brass)"/>
+        <!-- strain relief -->
+        <path d="M-27 166C-14 170 14 170 27 166L13 262H-13Z" fill="url(#rubber)"/>
+        <g stroke="#000" stroke-width="2.4" opacity=".85" fill="none"><path d="M-25 182C-12 186 12 186 25 182"/><path d="M-23 196C-11 200 11 200 23 196"/><path d="M-21 210C-10 213 10 213 21 210"/><path d="M-19 224C-9 227 9 227 19 224"/><path d="M-17 238C-8 241 8 241 17 238"/></g>
+      </g>
+      <linearGradient id="cordlit" x1="0" x2="1"><stop offset="0" stop-color="#6a6865"/><stop offset="1" stop-color="#3a3938"/></linearGradient>
+    </defs>
+
+    <!-- cords -->
+    <g fill="none" stroke-linecap="round">
+      <path id="c1" d="M318 475C296 590 420 650 384 770" stroke="#0d0d0d" stroke-width="9"/>
+      <path id="c2" d="M269 702C300 770 340 735 376 782" stroke="#0d0d0d" stroke-width="9"/>
+      <path id="c3" d="M382 818C364 900 430 930 404 1020" stroke="#0d0d0d" stroke-width="11"/>
+    </g>
+    <g fill="none" stroke="#7a7873" stroke-width="1.5" stroke-linecap="round" stroke-opacity=".8">
+      <path d="M316 475C294 590 418 650 382 770"/><path d="M269 700C300 768 340 733 376 780"/><path d="M380 818C362 900 428 930 402 1020"/>
+    </g>
+    <!-- y split in brass -->
+    <g transform="translate(381 795) rotate(6)">
+      <rect x="-14" y="-26" width="28" height="50" rx="3" fill="url(#brass)"/>
+      <rect x="-14" y="-15" width="28" height="1.2" fill="#3a2a10" opacity=".6"/><rect x="-14" y="12" width="28" height="1.2" fill="#3a2a10" opacity=".6"/>
+    </g>
+
+    <g opacity=".17" filter="url(#cast)"><use href="#bud" transform="translate(405 276) rotate(14) scale(.9)"/><use href="#bud" transform="translate(205 572) rotate(-30) scale(.68)"/></g>
+    <use href="#bud" transform="translate(375 246) rotate(14) scale(.9)"/>
+    <use href="#bud" transform="translate(180 548) rotate(-30) scale(.68)"/>
+  </svg>
