@@ -5,7 +5,7 @@
 :HL["/FreeEQ/_next/static/media/55110c1d57423bba-s.p.34w_pkbsoy-xo.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/FreeEQ/_next/static/media/847b360c863aee07-s.p.33i1d7jmgp4dn.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/FreeEQ/_next/static/media/86a503b0cf6eb73c-s.p.0t536sym2pz40.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/FreeEQ/_next/static/chunks/2ot2_90lapahk.css","style"]
+:HL["/FreeEQ/_next/static/chunks/03adui6-05qj4.css","style"]
 :HL["/FreeEQ/earbuds.svg","image"]
 1:[["children",{"s":"__PAGE__","h":160}]]
-0:{"b":"5P6e7sgRXZzHK5r9Z-KpY","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"JfWCNey4yaQR_I8ilvXWi","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
