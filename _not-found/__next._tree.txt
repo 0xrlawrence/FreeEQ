@@ -1,4 +1,4 @@
-:HL["/FreeEQ/_next/static/chunks/0kkksr7m5tdm1.css","style"]
+:HL["/FreeEQ/_next/static/chunks/2ezeyj3gq79zd.css","style"]
 2:[["children",{"s":"__PAGE__","h":160}]]
 1:[["children",{"s":"/_not-found","h":96,"c":"$Q2"}]]
-0:{"b":"JfWCNey4yaQR_I8ilvXWi","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"PmP62_rbz-jVBLcqLzZX8","t":{"t":{"s":"","h":80,"c":"$Q1"}}}

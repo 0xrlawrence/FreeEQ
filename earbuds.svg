@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 1000">
     <defs>
       <linearGradient id="lacquer" x1="0" x2="1" y1="0" y2="0">
-        <stop offset="0" stop-color="#1e070c"/><stop offset=".13" stop-color="#3c1119"/><stop offset=".3" stop-color="#6d2733"/>
-        <stop offset=".4" stop-color="#94434f"/><stop offset=".5" stop-color="#6b2531"/><stop offset=".76" stop-color="#47141e"/>
-        <stop offset=".93" stop-color="#25090f"/><stop offset="1" stop-color="#4f2029"/>
+        <stop offset="0" stop-color="#020d23"/><stop offset=".13" stop-color="#071d46"/><stop offset=".3" stop-color="#14397f"/>
+        <stop offset=".4" stop-color="#2856af"/><stop offset=".5" stop-color="#13377d"/><stop offset=".76" stop-color="#092252"/>
+        <stop offset=".93" stop-color="#03112b"/><stop offset="1" stop-color="#122c5d"/>
       </linearGradient>
       <linearGradient id="brass" x1="0" x2="1" y1="0" y2="0">
-        <stop offset="0" stop-color="#4f3c1c"/><stop offset=".22" stop-color="#a98a52"/><stop offset=".38" stop-color="#f2e2b5"/>
-        <stop offset=".54" stop-color="#b89a63"/><stop offset=".82" stop-color="#5f4923"/><stop offset="1" stop-color="#8d7242"/>
+        <stop offset="0" stop-color="#485260"/><stop offset=".22" stop-color="#8e99aa"/><stop offset=".38" stop-color="#e8eaed"/>
+        <stop offset=".54" stop-color="#a0aab8"/><stop offset=".82" stop-color="#525d6d"/><stop offset="1" stop-color="#758397"/>
       </linearGradient>
       <linearGradient id="rubber" x1="0" x2="1" y1="0" y2="0">
         <stop offset="0" stop-color="#050505"/><stop offset=".3" stop-color="#2b2a29"/><stop offset=".42" stop-color="#5f5d5a"/>
@@ -34,13 +34,13 @@
         </g>
         <!-- brass nozzle -->
         <path d="M-37-145H37L41-108H-41Z" fill="url(#brass)"/>
-        <path d="M-37-145C-20-136 20-136 37-145" stroke="#2c2010" stroke-opacity=".55" fill="none" stroke-width="2.4"/>
+        <path d="M-37-145C-20-136 20-136 37-145" stroke="#343b45" stroke-opacity=".55" fill="none" stroke-width="2.4"/>
         <!-- body -->
         <path d="M-42-114C-20-104 20-104 42-114C54-100 70-74 70-36V70C70 106 54 128 40 144C20 152-20 152-40 144C-54 128-70 106-70 70V-36C-70-74-54-100-42-114Z" fill="url(#lacquer)" filter="url(#grain)"/>
-        <path d="M-44-58C-49-20-49 74-39 114" stroke="#f6dcd8" stroke-opacity=".62" stroke-width="4" fill="none" filter="url(#soft2)" stroke-linecap="round"/>
-        <path d="M-22-92C-28-60-28 92-22 130" stroke="#d98f9a" stroke-opacity=".22" stroke-width="20" fill="none" filter="url(#soft)"/>
-        <path d="M-70-30C-34-15 34-15 70-30" stroke="#1b060a" stroke-width="1.6" fill="none"/>
-        <path d="M-70-27C-34-12 34-12 70-27" stroke="#a0525e" stroke-opacity=".6" stroke-width="1" fill="none"/>
+        <path d="M-44-58C-49-20-49 74-39 114" stroke="#d2e0fc" stroke-opacity=".62" stroke-width="4" fill="none" filter="url(#soft2)" stroke-linecap="round"/>
+        <path d="M-22-92C-28-60-28 92-22 130" stroke="#7ca2ec" stroke-opacity=".22" stroke-width="20" fill="none" filter="url(#soft)"/>
+        <path d="M-70-30C-34-15 34-15 70-30" stroke="#020c1f" stroke-width="1.6" fill="none"/>
+        <path d="M-70-27C-34-12 34-12 70-27" stroke="#3463be" stroke-opacity=".6" stroke-width="1" fill="none"/>
         <!-- brass collar -->
         <path d="M-41 138C-20 148 20 148 41 138L37 162C20 170-20 170-37 162Z" fill="url(#brass)"/>
         <!-- strain relief -->
@@ -62,7 +62,7 @@
     <!-- y split in brass -->
     <g transform="translate(381 795) rotate(6)">
       <rect x="-14" y="-26" width="28" height="50" rx="3" fill="url(#brass)"/>
-      <rect x="-14" y="-15" width="28" height="1.2" fill="#3a2a10" opacity=".6"/><rect x="-14" y="12" width="28" height="1.2" fill="#3a2a10" opacity=".6"/>
+      <rect x="-14" y="-15" width="28" height="1.2" fill="#3a424d" opacity=".6"/><rect x="-14" y="12" width="28" height="1.2" fill="#3a424d" opacity=".6"/>
     </g>
 
     <g opacity=".17" filter="url(#cast)"><use href="#bud" transform="translate(405 276) rotate(14) scale(.9)"/><use href="#bud" transform="translate(205 572) rotate(-30) scale(.68)"/></g>
